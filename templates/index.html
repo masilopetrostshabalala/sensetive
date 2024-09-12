@@ -1,0 +1,39 @@
+<html>
+
+<hl> This is the homepage</hl>
+
+<a href="{% url 'register' %}"> Register here </a>
+
+<br> <br>
+
+<a href="{% url 'my-login' %}"> Login here </a>
+
+</html>
+
+""" Making blog here"""
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post filter</title>
+</head>
+<body>
+   <main>
+    <div class="container">
+        <h1>Recent Blog posts</h1>
+        <lable for="search">
+            <input type="search" id="search"
+            autocomplete="off" spellcheck=""
+            placeholder="Enter a search term">
+        </lable>
+        <div class="post-container">
+        Actually all my posts are located here.
+        </div>
+        <button class="btn btn--view">View
+            more Posts</button>
+    </div>
+</body>
+</html>
